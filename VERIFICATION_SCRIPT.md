@@ -25,24 +25,3 @@ def do_thing_dependant_on_1() -> tuple[bool, str]:
 def do_thing_3() -> tuple[bool, str]:
     return True, "All Good"
 ```
-
-### Create submission checker
-
-- Add a submission directory under the `submission` directory named after the `SUBMISSION` ID.
-- Add a `check.py` under this directory
-- Create execution graph
-
-```sh
-.
-└── src
-    ├── __init__.py
-    ├── __pycache__
-    ├── base.py
-    ├── toolX/
-    │   ├── checker.py 
-    │   └── resources.py 
-    └── submissions/
-        └── 123456/
-            └── check.py
-``` 
-
