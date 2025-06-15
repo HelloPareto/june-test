@@ -44,10 +44,9 @@ Your task is to read and understand the code in `email.py` and the requirements 
 
 ---
 
-### Part 3: Implementation
+### Part 2: Implementation
 
-Given the following requirements:
-
+Given the following verification requirements:
 - Step 1: Ensure there is an email with subject containing "Payroll Forecast".
 - Step 2: Ensure there is an email sent to "payroll@example.com".
 
