@@ -1,7 +1,7 @@
 ## Technical Interview: Email Verification System
 
 ## Task A
-In the `Input.md` you will find an instruction set given to an agent to complete a task. As well as the "Architect Synthesis" which is the architect's standalone interpretation of how we can check if the task was done well. Check the file, read through it, Identify any issues, inconsistencies or improvements, if any.
+In the `Input.md` you will find an instruction set given to an AI agent to complete a task. You will also fid an "Architect Synthesis" which is the architect's standalone interpretation of how we can check if the task was done correctly. Check the file, read through both, and identify any issues, inconsistencies or improvements -- if any.
 
 ---
 ## Task B
