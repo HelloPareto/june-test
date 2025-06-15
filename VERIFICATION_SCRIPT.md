@@ -15,13 +15,16 @@ from validator import Validator
 
 @Validator.step(1)
 def do_thing1() -> tuple[bool, str]:
-    return True, "All good"
+    # ...Checking Logic...
+    return True, "All good with thing 1"
 
 @Validator.step(2, depends_on=[1])
 def do_thing_dependant_on_1() -> tuple[bool, str]:
-    return False, "Something Happened"
+    # ...Checking Logic...
+    return False, "Something Happened, I was expecting X"
 
 @Validator.step(3, depends_on=[1, 2])
 def do_thing_3() -> tuple[bool, str]:
-    return True, "All Good"
+    # ...Checking Logic...
+    return True, "All good with thing 3"
 ```
